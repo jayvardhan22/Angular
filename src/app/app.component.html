@@ -1,0 +1,19 @@
+<h1>Jay Vardhan</h1>
+<h2>{{title}}</h2>
+<h2>{{x === y}}</h2>
+<app-profile></app-profile>
+<button (click) = "clickHandleEvent()">Contact</button>
+
+<h1 style="text-align: center;">Counter Game</h1>
+<div style="text-align:center;">
+    <h2 class="count">{{count}}</h2>
+    <div>
+        <button (click) ="handleCounter('minus')" class="btn bg-red">Decrement</button>
+        <button (click) ="handleCounter('plus')" class="btn bg-green">Increment</button>
+        <button (click) ="handleCounter('reset')" class="btn bg-yellow">Reset</button>
+    </div>
+</div>
+
+
+<h1>ClicK event in Angular</h1>
+<button (click)="handleEvent($event)">Click Event</button>
